@@ -17,30 +17,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
-        
-        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>  
     </head>
 
     <header>
-        <section class="container">
-            <ul class="navbar">
-                <li><a href="#titulo">Inicio</a></li>
+      <section class="container">
+        <ul class="navbar">
+            <li><a href="#titulo">Inicio</a></li>
                 <li><a href="#slider">Fotos</a></li>
                 <li><a href="#fechas">Fecha</a></li>
                 <li><a href="#formulario">Asistencia</a></li> 
-            </ul> 
-            <div id="titulo" class="titulo"><h4>T&nbsp; A&nbsp; R &nbsp;A &nbsp;S  &nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp; M&nbsp; A &nbsp;R &nbsp;T&nbsp; A</h4></div>
-          </section>
+        </ul> 
+        <div id="titulo" class="titulo"><h4>T&nbsp; A&nbsp; R &nbsp;A &nbsp;S  &nbsp;&nbsp;&nbsp; & &nbsp;&nbsp;&nbsp; M&nbsp; A &nbsp;R &nbsp;T&nbsp; A</h4></div>
+      </section>
     </header>
 
     <body>
-        <section id="slider" class="historia">
+      <section id="slider" class="historia">
             <div class="historiadescripcion"><br>"The greatest thing you'll ever learn is just to love and be love in return"</div>
             <br></br>
             <div class="historiatexto">QUE LA SONRISA Y EL AMOR QUE SENTIMOS DESDE EL PRINCIPIO, NOS ACOMPAÑE A TODOS EL DÍA DE NUESTRA BODA </div>
-        </section>
-        <section class="ism-slider" data-transition_type="fade" data-play_type="once" data-radio_type="thumbnail" id="my-slider">
+      </section>
+    
+      <section class="ism-slider" data-transition_type="fade" data-play_type="once" data-radio_type="thumbnail" id="my-slider">
             <ol>
               <li>
                 <a href="https://ibb.co/WWRKV5X"><img src="https://i.ibb.co/HD9gh4y/DSC-0286.jpg" alt="DSC-0286"/></a>
@@ -64,7 +63,7 @@
                 <a href="https://ibb.co/HVGyYpH"><img src="https://i.ibb.co/t4Y6cPJ/DSC-0249.jpg" alt="DSC-0249"/></a>
               </li>
             </ol>
-          </section>
+        </section>
         
         <section id="fechas" class="boda">
             <div id="texto">NUESTRO ENLACE</div>
@@ -89,22 +88,23 @@
         <section id="formulario" class="formulario">
             <h1>¿QUIERES ACOMPAÑARNOS EN NUESTRO VIAJE?</h1>
             <form id="form" class="topBefore" action="https://formsubmit.co/eddyrm.93@gmail.com" method="post">
-                <input id="Nombre" type="text" name= "Nombre" placeholder="Nombre">
-                <select id="Dieta" type="text" name = "Dieta"placeholder="¿Que tipo de dieta prefieres?">
-                    <option value="omnivoro">Omnívoro</option>
+                <label for="Dieta">Nombre y apellidos</label>
+                <input id="Nombre" type="text" name= "Nombre" placeholder="Ej: Marta Diez Gutiérrez"></input>
+                <label for="Dieta">¿Qué tipo de dieta prefieres?</label>
+                <select id="Dieta" type="text" name = "Dieta">
+                    <option value="omnivoro">No tengo preferencias</option>
                     <option value="vegano">Vegana</option>
                     <option value="vegetariano">Vegetariana</option>
                 </select>
-                <input id="Alergias" type="text" name ="Alergias" placeholder="¿Tienes intolerancia?">
-                <input id="Cancion" type="text" name ="Cancion" placeholder="¿Qué canción te recuerda a nosotros?"></input>
-                <textarea id="Direccion" type="text" name="Direccion" placeholder="¿A qué dirección quieres que enviemos la invitación?"></textarea>
-                <input id="submit" type="submit" name ="submit" value="Enviar" >
-                
-        
+                <label for="Dieta">¿Tienes alguna alergia o intolerancia a algún alimento?</label>
+                <textarea id="Alergias" type="text" name ="Alergias" placeholder="Ej: Lactosa y alergia a los frutos secos"></textarea>
+                <label for="Dieta">¿Qué canción te recuerda a nosotros o quieres escuchar en la fiesta?</label>
+                <textarea id="Cancion" type="text" name ="Cancion" placeholder="Ej: Gasolina - Daddy Yankee"></textarea>
+                <label for="Dieta">¿A qué dirección quieres que enviemos la invitación?</label>
+                <textarea id="Direccion" type="text" name="Direccion" placeholder="Direccion"></textarea>
+                <input id="submit" type="submit" name ="submit" value="Enviar">
             </form>
-        </section>
-            
-        
+        </section>  
     </body>
     <script src="assets/script/scripts.js"></script>
 </html>
