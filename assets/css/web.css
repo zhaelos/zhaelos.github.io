@@ -1091,6 +1091,7 @@ textarea:hover{
 button{
   background-color: rgb(250, 250, 250);
   padding: 15px;
+  position: relative;
   margin-left: 12%;
   border: 0;
   font-family: 'Lato', sans-serif;
@@ -1098,7 +1099,8 @@ button{
   border-bottom:2px solid rgba(85, 85, 85, 0.61); 
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   border-radius: 10px;
-  width: 75%; 
+  width: 35%; 
+  left: 20%;
   color: black;
   height: 10%; 
   font-size: 25;
