@@ -77,10 +77,9 @@ header{
   flex-direction: column;
   width: 100%;
   height: 350px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   text-align: center;
-    
-       
+
 }
 
 .historiadescripcion{
@@ -88,8 +87,8 @@ header{
   position: relative;
   font-style: oblique;
   font-weight: bold;
-  font-size: 30;
-  top: 90%;
+  font-size: 40;
+  top: 15%;
   width: 100%;
   font-family: 'Lato', sans-serif;
   color: rgb(0, 0, 0);
@@ -100,9 +99,9 @@ header{
   position: relative;
   font-weight: bold;
   padding-top: 6%;
-  font-size: 20;
+  font-size: 30;
   width: 100%;
-  top: 30%;
+  top: 20%;
   font-family: 'Lato', sans-serif;
   color: rgb(0, 0, 0);
   
@@ -871,9 +870,23 @@ p.ism-badge a.ism-link:hover {
   color: (117, 117, 117);
   text-shadow:4px 4px 4px rgba(85, 85, 85, 0.377);
   font-family: 'Lato', sans-serif;
+  font-weight: 550;
   font-size: 80;
   top: 10%;
     
+}
+
+.boda #lugar{
+  position: relative;
+  font-size: 35;
+  right: 7%;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;  
+}
+
+.boda #lugar #mapaboda{
+  margin-top: 20px;
 }
 
 .boda #donde{
@@ -890,22 +903,17 @@ p.ism-badge a.ism-link:hover {
 
 }
 
-.boda #mapaboda{
-   position: relative;
-   right: 7%;
-}
-
-.convite #mapaboda{
-  position: relative;
-  right: 7%;
-}
-
 .boda #linea{
   border-left: thick solid rgb(182, 183, 178);
-  height:100%;
+  height:80%;
   left: 50%;
+  top: 15%;
   position: absolute;
     
+}
+
+.boda #hora{
+  font-weight: 600;
 }
 
 .convite{
@@ -924,6 +932,7 @@ p.ism-badge a.ism-link:hover {
   text-shadow:4px 4px 4px rgba(85, 85, 85, 0.61);
   font-family: 'Lato', sans-serif;
   font-size: 80;
+  font-weight: 400;
   top: 10%;
     
 }
@@ -935,17 +944,30 @@ p.ism-badge a.ism-link:hover {
   font-family: 'Lato', sans-serif;
   color: rgb(230, 202, 174);
   font-size: 50;
+  font-weight: 600;
   top: 20%;
   flex-basis: 50%;
   justify-content: space-evenly;
-    
+}
 
+.convite #lugar{
+  position: relative;
+  font-size: 27;
+  font-weight: 600;
+  right: 7%;
+  display: flex;
+  flex-direction: column;  
+}
+
+.convite #lugar #mapaboda{
+  margin-top: 20px;
 }
 
 .convite #linea{
   border-left: thick solid rgba(230, 202, 174);
-  height:100%;
+  height:80%;
   left: 50%;
+  top: 15%;
   position: absolute;
     
 }
@@ -967,6 +989,7 @@ p.ism-badge a.ism-link:hover {
   color: rgba(85, 85, 85);
   font-family: 'Lato', sans-serif;
   font-size: 50;
+  width: 100%;
   margin-right: 5%;
 }
 
