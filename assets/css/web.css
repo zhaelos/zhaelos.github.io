@@ -881,10 +881,8 @@ p.ism-badge a.ism-link:hover {
 .boda #lugar{
   position: relative;
   font-size: 35;
-  right: 7%;
+  right: 6%;
   font-weight: 600;
-  display: flex;
-  flex-direction: column;  
 }
 
 .boda #lugar #mapaboda{
@@ -907,7 +905,7 @@ p.ism-badge a.ism-link:hover {
 
 .boda #linea{
   border-left: thick solid rgb(182, 183, 178);
-  height:80%;
+  height:100%;
   left: 50%;
   top: 15%;
   position: absolute;
@@ -915,7 +913,15 @@ p.ism-badge a.ism-link:hover {
 }
 
 .boda #hora{
+  position: relative;
+  display: flex;
+  flex-direction: column;
   font-weight: 600;
+  
+}
+
+.boda #hora #ermita{
+  font-size: 20;
 }
 
 .convite{
@@ -956,18 +962,29 @@ p.ism-badge a.ism-link:hover {
   position: relative;
   font-size: 27;
   font-weight: 600;
-  right: 7%;
-  display: flex;
-  flex-direction: column;  
+  right: 5%;
+   
 }
 
 .convite #lugar #mapaboda{
   margin-top: 20px;
 }
 
+.convite #hora{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  
+}
+
+.convite #hora #casita{
+  font-size: 20;
+}
+
 .convite #linea{
   border-left: thick solid rgba(230, 202, 174);
-  height:80%;
+  height:100%;
   left: 50%;
   top: 15%;
   position: absolute;
