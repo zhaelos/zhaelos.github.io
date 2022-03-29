@@ -51,22 +51,32 @@ header{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% auto;
+  
   }
 
 .titulo {
   position: relative;
-  top:25%;
+  display: flex;
+  flex-direction: column;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 70;
   background-color: white;
   opacity: 0.8;
   font-family: 'Lato', sans-serif;
   color: rgba(85, 85, 85);
   text-shadow:4px 4px 4px rgba(202, 202, 202, 0.76);
-    
   }
 
+.titulo #nombres{
+  font-size: 70;
+  font-weight: 600
+}
+
+.titulo #fecha{
+  font-size: 50;
+  font-weight: 600;
+}
 
 
 .historia{
@@ -76,7 +86,7 @@ header{
   justify-content: space-around;
   flex-direction: column;
   width: 100%;
-  height: 550px;
+  height: 350px;
   margin-bottom: 200px;
   text-align: center;
 
