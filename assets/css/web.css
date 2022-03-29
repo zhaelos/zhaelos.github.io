@@ -89,7 +89,8 @@ header{
   font-weight: bold;
   font-size: 40;
   top: 15%;
-  width: 100%;
+  width: 80%;
+  left: 10%;
   font-family: 'Lato', sans-serif;
   color: rgb(0, 0, 0);
     
@@ -100,8 +101,9 @@ header{
   font-weight: bold;
   padding-top: 6%;
   font-size: 30;
-  width: 100%;
+  width: 80%;
   top: 20%;
+  left: 10%;
   font-family: 'Lato', sans-serif;
   color: rgb(0, 0, 0);
   
