@@ -985,12 +985,15 @@ p.ism-badge a.ism-link:hover {
 }
 
 .formulario h1{
+  position: relative;
   text-align: center;
   color: rgba(85, 85, 85);
   font-family: 'Lato', sans-serif;
   font-size: 50;
-  width: 100%;
-  margin-right: 5%;
+  resize:horizontal;  
+  box-sizing: content-box;
+  width: 80%;
+  left: 9%;
 }
 
 
@@ -1057,9 +1060,10 @@ textarea{
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   border-radius: 10px;
   width: 75%; 
-  height: 10%;
   font-size: 25;
 }
+
+
 
 textarea:hover{
   background-color: rgba(85, 85, 85, 0.377);
